@@ -22,7 +22,7 @@ class Abbreviator
   end
 
   def self.abbreviate_single_word(word)
-    if word.size <= 4
+    if word.size <= 3
       word
     else
       word[0] + "#{word.size-2}" + word[word.size-1]
